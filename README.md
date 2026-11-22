@@ -1,10 +1,10 @@
-# GITGOOD — Security Engineering Labs
+# GITGOOD  Security Engineering Labs
 
 A Python learning portfolio for exploring security engineering through small, documented lab exercises. The repository emphasizes understanding, evidence, and defensive thinking—not unauthorized testing.
 
 > **Authorized use only:** Run network-facing exercises only in a lab you own or have explicit written permission to assess. Review each script's documentation and scope before running it.
 
-## What you'll find
+## What you'll find as u go....
 
 | Area | Focus | Examples |
 | --- | --- | --- |
@@ -50,7 +50,7 @@ python -m pip install --upgrade pip
 python -m pip install -r cybersecurity-projects/requirements.txt
 ```
 
-Before using an exercise, read its source and the relevant documentation. Start with a disposable, isolated lab and data that you are authorized to inspect. Dependencies and system permissions may vary by exercise and platform.
+PLS PLS PLS I SAY AGAIN PLS -------Before using an exercise, read its source and the relevant documentation. Start with a disposable, isolated lab and data that you are authorized to inspect. Dependencies and system permissions may vary by exercise and platform---------------.
 
 ## Learning path
 
