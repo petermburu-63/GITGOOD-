@@ -45,7 +45,7 @@ Use Python 3 and create an isolated environment from the repository root:
 
 ```bash
 python3 -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
+source .venv/bin/activate  # Windows: .venv\\Scripts\\activate
 python -m pip install --upgrade pip
 python -m pip install -r cybersecurity-projects/requirements.txt
 ```
@@ -65,6 +65,10 @@ Before using an exercise, read its source and the relevant documentation. Start 
 - **Small and explainable:** Prefer readable exercises with clear inputs and limitations.
 - **Evidence over assumptions:** Distinguish observed facts from interpretation.
 - **Defensive learning:** Use findings to understand risk and improve protection.
+
+## Portfolio roadmap
+
+The [portfolio roadmap](docs/PORTFOLIO_ROADMAP.md) describes three related projects currently in planning or early development: a read-only Secure Boot certificate auditor, an isolated detection-as-code lab, and a privacy-conscious M-Pesa smishing analyzer. These are roadmap items, not claims that their implementations are already included in this repository.
 
 ## Contributing
 
