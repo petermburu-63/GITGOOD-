@@ -1,10 +1,10 @@
-# GITGOOD  Security Engineering Labs
+# GITGOOD — Security Engineering Labs
 
 A Python learning portfolio for exploring security engineering through small, documented lab exercises. The repository emphasizes understanding, evidence, and defensive thinking—not unauthorized testing.
 
 > **Authorized use only:** Run network-facing exercises only in a lab you own or have explicit written permission to assess. Review each script's documentation and scope before running it.
 
-## What you'll find as u go....
+## What you'll find
 
 | Area | Focus | Examples |
 | --- | --- | --- |
@@ -50,7 +50,7 @@ python -m pip install --upgrade pip
 python -m pip install -r cybersecurity-projects/requirements.txt
 ```
 
-PLS PLS PLS I SAY AGAIN PLS -------Before using an exercise, read its source and the relevant documentation. Start with a disposable, isolated lab and data that you are authorized to inspect. Dependencies and system permissions may vary by exercise and platform---------------.
+Before using an exercise, read its source and relevant documentation. Start with a disposable, isolated lab and data that you are authorized to inspect. Dependencies and system permissions may vary by exercise and platform.
 
 ## Learning path
 
@@ -66,9 +66,15 @@ PLS PLS PLS I SAY AGAIN PLS -------Before using an exercise, read its source and
 - **Evidence over assumptions:** Distinguish observed facts from interpretation.
 - **Defensive learning:** Use findings to understand risk and improve protection.
 
-## Portfolio roadmap
+## Portfolio projects
 
-The [portfolio roadmap](docs/PORTFOLIO_ROADMAP.md) describes three related projects currently in planning or early development: a read-only Secure Boot certificate auditor, an isolated detection-as-code lab, and a privacy-conscious M-Pesa smishing analyzer. These are roadmap items, not claims that their implementations are already included in this repository.
+The following briefs keep distinct projects easy to browse. They describe the projects and reported status; their implementation code is not included in this repository unless explicitly stated.
+
+| Project | Focus | Documentation |
+| --- | --- | --- |
+| Detection-as-Code Lab | Sigma rules, labelled event testing, and CI | [Project brief](docs/projects/Detection-as-Code-Lab/README.md) |
+| SmishGuard-KE | Explainable SMS-fraud scoring for Kenyan mobile-money scam patterns | [Project brief](docs/projects/SmishGuard-KE/README.md) |
+| Secure Boot Certificate Auditor | Read-only firmware certificate auditing, maintained with Hardware-Auditing-HQ | [Project brief](https://github.com/petermburu-63/Hardware-Auditing-HQ/blob/main/docs/projects/SecureBoot-Cert-Auditor/README.md) |
 
 ## Contributing
 
